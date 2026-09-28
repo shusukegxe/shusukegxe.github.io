@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>ShusukeGxE | shusukegxe</title>
-  <meta name="description" content="Perfil de ShusukeGxE en GitHub - Desarrollador de PixelVortex y más">
+  <meta name="description" content="Perfil de ShusukeGxE en GitHub - Desarrollador de PixelVortex, MiniFeather y más">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet">
@@ -62,7 +62,7 @@
     }
     .bio {
       color: var(--muted);
-      max-width: 480px;
+      max-width: 520px;
       margin: 0 auto 1.5rem;
     }
     .stats {
@@ -138,6 +138,23 @@
       background: linear-gradient(var(--accent), var(--accent2));
       border-radius: 2px;
     }
+    .about-box {
+      background: var(--card);
+      border: 1px solid var(--border);
+      border-radius: 12px;
+      padding: 1.5rem;
+      margin-bottom: 0.5rem;
+    }
+    .about-box p {
+      color: var(--muted);
+      margin-bottom: 0.85rem;
+    }
+    .about-box p:last-child {
+      margin-bottom: 0;
+    }
+    .about-box strong {
+      color: var(--text);
+    }
     .projects {
       display: grid;
       grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
@@ -204,7 +221,7 @@
       <img class="avatar" src="https://avatars.githubusercontent.com/u/220939036?v=4" alt="Avatar de ShusukeGxE">
       <h1>ShusukeGxE</h1>
       <p class="username">@shusukegxe</p>
-      <p class="bio">Desarrollador apasionado por crear experiencias digitales. Creador de <strong>PixelVortex</strong> — launcher y herramientas para la comunidad.</p>
+      <p class="bio">Desarrollador apasionado por crear experiencias digitales. Creador de <strong>PixelVortex</strong> y contribuidor activo en el ecosistema de <strong>MiniFeather</strong> / MiniBlox.</p>
       <div class="stats">
         <div class="stat">
           <strong>43+</strong>
@@ -230,19 +247,45 @@
     </header>
 
     <section>
+      <h2>Sobre MiniFeather</h2>
+      <div class="about-box">
+        <p><strong>MiniFeather</strong> es un cliente para <strong>MiniBlox</strong>. He trabajado en varias partes del ecosistema:</p>
+        <p>• <strong>MiniFeather-Client</strong> — Cliente personalizado para MiniBlox con recursos gráficos, texturas y fuentes.</p>
+        <p>• <strong>mfaccs</strong> — Sistema de gestión de cuentas, skins y capas (capes). Proyecto activo en Python con más de 160 commits, incluyendo skins, capes y automatización.</p>
+        <p>• Integración con <strong>PixelVortex</strong>, el launcher que desarrollé para facilitar el acceso a MiniBlox y herramientas relacionadas.</p>
+      </div>
+    </section>
+
+    <section>
       <h2>Proyectos destacados</h2>
       <div class="projects">
         <article class="card">
           <h3><a href="https://github.com/shusukegxe/pixelvortex-3.2.x" target="_blank">pixelvortex-3.2.x</a></h3>
-          <p>Versión principal del launcher PixelVortex.</p>
+          <p>Versión principal del launcher PixelVortex para MiniBlox.</p>
           <div class="meta">
             <span class="tag">JavaScript</span>
             <span>★ 4</span>
           </div>
         </article>
         <article class="card">
+          <h3><a href="https://github.com/shusukegxe/MiniFeather-Client" target="_blank">MiniFeather-Client</a></h3>
+          <p>Cliente personalizado para MiniBlox (MiniFeather).</p>
+          <div class="meta">
+            <span class="tag">Client</span>
+            <span>★ 1</span>
+          </div>
+        </article>
+        <article class="card">
+          <h3><a href="https://github.com/shusukegxe/mfaccs" target="_blank">mfaccs</a></h3>
+          <p>Gestión de cuentas, skins y capas para MiniFeather. +160 commits.</p>
+          <div class="meta">
+            <span class="tag">Python</span>
+            <span>Activo</span>
+          </div>
+        </article>
+        <article class="card">
           <h3><a href="https://github.com/shusukegxe/PixelVortex_Launcher" target="_blank">PixelVortex_Launcher</a></h3>
-          <p>Un launcher para miniblox.io</p>
+          <p>Launcher para miniblox.io</p>
           <div class="meta">
             <span class="tag">Launcher</span>
             <span>★ 2</span>
@@ -269,13 +312,6 @@
           <div class="meta">
             <span class="tag">CSS</span>
             <span>GitHub Pages</span>
-          </div>
-        </article>
-        <article class="card">
-          <h3><a href="https://github.com/shusukegxe/mfaccs" target="_blank">mfaccs</a></h3>
-          <p>Proyecto en Python.</p>
-          <div class="meta">
-            <span class="tag">Python</span>
           </div>
         </article>
       </div>
