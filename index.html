@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>ShusukeGxE | shusukegxe</title>
-  <meta name="description" content="Perfil de ShusukeGxE en GitHub - Desarrollador de PixelVortex, MiniFeather y más">
+  <meta name="description" content="Perfil de ShusukeGxE — PixelVortex, MiniFeather, MiniBlox, web y más">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet">
@@ -29,190 +29,95 @@
         radial-gradient(ellipse 80% 50% at 50% -20%, rgba(124, 58, 237, 0.25), transparent),
         radial-gradient(ellipse 60% 40% at 100% 0%, rgba(34, 211, 238, 0.12), transparent);
     }
-    .container {
-      max-width: 900px;
-      margin: 0 auto;
-      padding: 2rem 1.25rem 4rem;
-    }
-    header {
-      text-align: center;
-      padding: 3rem 0 2.5rem;
-    }
+    .container { max-width: 960px; margin: 0 auto; padding: 2rem 1.25rem 4rem; }
+    header { text-align: center; padding: 3rem 0 2rem; }
     .avatar {
-      width: 140px;
-      height: 140px;
-      border-radius: 50%;
+      width: 140px; height: 140px; border-radius: 50%;
       border: 3px solid var(--accent);
       box-shadow: 0 0 40px rgba(124, 58, 237, 0.4);
-      margin-bottom: 1.25rem;
-      object-fit: cover;
+      margin-bottom: 1.25rem; object-fit: cover;
     }
     h1 {
       font-family: 'Space Grotesk', sans-serif;
-      font-size: 2.25rem;
-      font-weight: 700;
-      letter-spacing: -0.02em;
-      margin-bottom: 0.35rem;
+      font-size: 2.25rem; font-weight: 700;
+      letter-spacing: -0.02em; margin-bottom: 0.35rem;
     }
-    .username {
-      color: var(--accent2);
-      font-weight: 500;
-      font-size: 1.1rem;
-      margin-bottom: 0.75rem;
-    }
-    .bio {
-      color: var(--muted);
-      max-width: 520px;
-      margin: 0 auto 1.5rem;
-    }
+    .username { color: var(--accent2); font-weight: 500; font-size: 1.1rem; margin-bottom: 0.75rem; }
+    .bio { color: var(--muted); max-width: 560px; margin: 0 auto 1.5rem; }
     .stats {
-      display: flex;
-      justify-content: center;
-      gap: 2rem;
-      flex-wrap: wrap;
-      margin-bottom: 1.75rem;
+      display: flex; justify-content: center; gap: 2rem;
+      flex-wrap: wrap; margin-bottom: 1.75rem;
     }
-    .stat {
-      text-align: center;
-    }
-    .stat strong {
-      display: block;
-      font-size: 1.4rem;
-      font-weight: 700;
-      color: var(--text);
-    }
-    .stat span {
-      font-size: 0.85rem;
-      color: var(--muted);
-    }
-    .links {
-      display: flex;
-      justify-content: center;
-      gap: 0.75rem;
-      flex-wrap: wrap;
-    }
+    .stat { text-align: center; }
+    .stat strong { display: block; font-size: 1.4rem; font-weight: 700; }
+    .stat span { font-size: 0.85rem; color: var(--muted); }
+    .links { display: flex; justify-content: center; gap: 0.75rem; flex-wrap: wrap; }
     .btn {
-      display: inline-flex;
-      align-items: center;
-      gap: 0.5rem;
-      padding: 0.65rem 1.25rem;
-      border-radius: 999px;
-      font-weight: 600;
-      font-size: 0.95rem;
-      text-decoration: none;
+      display: inline-flex; align-items: center; gap: 0.5rem;
+      padding: 0.65rem 1.25rem; border-radius: 999px;
+      font-weight: 600; font-size: 0.95rem; text-decoration: none;
       transition: transform 0.15s, box-shadow 0.15s;
     }
     .btn-primary {
       background: linear-gradient(135deg, var(--accent), #a78bfa);
-      color: white;
-      box-shadow: 0 4px 20px rgba(124, 58, 237, 0.35);
+      color: white; box-shadow: 0 4px 20px rgba(124, 58, 237, 0.35);
     }
-    .btn-primary:hover {
-      transform: translateY(-2px);
-      box-shadow: 0 6px 28px rgba(124, 58, 237, 0.5);
-    }
-    .btn-outline {
-      background: transparent;
-      color: var(--text);
-      border: 1px solid var(--border);
-    }
-    .btn-outline:hover {
-      border-color: var(--accent2);
-      color: var(--accent2);
-    }
-    section {
-      margin-top: 2.5rem;
-    }
+    .btn-primary:hover { transform: translateY(-2px); box-shadow: 0 6px 28px rgba(124, 58, 237, 0.5); }
+    .btn-outline { background: transparent; color: var(--text); border: 1px solid var(--border); }
+    .btn-outline:hover { border-color: var(--accent2); color: var(--accent2); }
+    section { margin-top: 2.75rem; }
     h2 {
       font-family: 'Space Grotesk', sans-serif;
-      font-size: 1.35rem;
-      margin-bottom: 1.25rem;
-      display: flex;
-      align-items: center;
-      gap: 0.5rem;
+      font-size: 1.35rem; margin-bottom: 1rem;
+      display: flex; align-items: center; gap: 0.5rem;
     }
     h2::before {
-      content: '';
-      width: 4px;
-      height: 1.1em;
+      content: ''; width: 4px; height: 1.1em;
       background: linear-gradient(var(--accent), var(--accent2));
       border-radius: 2px;
     }
+    h3.cat {
+      font-family: 'Space Grotesk', sans-serif;
+      font-size: 1.05rem; color: var(--accent2);
+      margin: 1.5rem 0 0.85rem; font-weight: 600;
+    }
     .about-box {
-      background: var(--card);
-      border: 1px solid var(--border);
-      border-radius: 12px;
-      padding: 1.5rem;
-      margin-bottom: 0.5rem;
+      background: var(--card); border: 1px solid var(--border);
+      border-radius: 12px; padding: 1.35rem 1.5rem;
     }
-    .about-box p {
-      color: var(--muted);
-      margin-bottom: 0.85rem;
-    }
-    .about-box p:last-child {
-      margin-bottom: 0;
-    }
-    .about-box strong {
-      color: var(--text);
-    }
+    .about-box p { color: var(--muted); margin-bottom: 0.7rem; }
+    .about-box p:last-child { margin-bottom: 0; }
+    .about-box strong { color: var(--text); }
     .projects {
       display: grid;
-      grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+      grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
       gap: 1rem;
     }
     .card {
-      background: var(--card);
-      border: 1px solid var(--border);
-      border-radius: 12px;
-      padding: 1.25rem;
+      background: var(--card); border: 1px solid var(--border);
+      border-radius: 12px; padding: 1.2rem;
       transition: border-color 0.2s, transform 0.2s;
     }
-    .card:hover {
-      border-color: var(--accent);
-      transform: translateY(-3px);
-    }
-    .card h3 {
-      font-size: 1.05rem;
-      margin-bottom: 0.4rem;
-    }
-    .card h3 a {
-      color: var(--text);
-      text-decoration: none;
-    }
-    .card h3 a:hover {
-      color: var(--accent2);
-    }
-    .card p {
-      font-size: 0.9rem;
-      color: var(--muted);
-      margin-bottom: 0.75rem;
-    }
+    .card:hover { border-color: var(--accent); transform: translateY(-3px); }
+    .card h3 { font-size: 1rem; margin-bottom: 0.35rem; }
+    .card h3 a { color: var(--text); text-decoration: none; }
+    .card h3 a:hover { color: var(--accent2); }
+    .card p { font-size: 0.88rem; color: var(--muted); margin-bottom: 0.7rem; }
     .card .meta {
-      font-size: 0.8rem;
-      color: var(--muted);
-      display: flex;
-      gap: 0.75rem;
-      flex-wrap: wrap;
+      font-size: 0.78rem; color: var(--muted);
+      display: flex; gap: 0.5rem; flex-wrap: wrap; align-items: center;
     }
     .tag {
-      background: rgba(124, 58, 237, 0.2);
-      color: #c4b5fd;
-      padding: 0.15rem 0.5rem;
-      border-radius: 6px;
-      font-size: 0.75rem;
+      background: rgba(124, 58, 237, 0.2); color: #c4b5fd;
+      padding: 0.12rem 0.45rem; border-radius: 6px; font-size: 0.72rem;
     }
+    .tag-green { background: rgba(34, 197, 94, 0.2); color: #86efac; }
+    .tag-blue { background: rgba(34, 211, 238, 0.15); color: #67e8f9; }
     footer {
-      text-align: center;
-      margin-top: 3.5rem;
-      padding-top: 1.5rem;
-      border-top: 1px solid var(--border);
-      color: var(--muted);
-      font-size: 0.9rem;
+      text-align: center; margin-top: 3.5rem; padding-top: 1.5rem;
+      border-top: 1px solid var(--border); color: var(--muted); font-size: 0.9rem;
     }
-    footer a {
-      color: var(--accent2);
-      text-decoration: none;
-    }
+    footer a { color: var(--accent2); text-decoration: none; }
   </style>
 </head>
 <body>
@@ -221,20 +126,11 @@
       <img class="avatar" src="https://avatars.githubusercontent.com/u/220939036?v=4" alt="Avatar de ShusukeGxE">
       <h1>ShusukeGxE</h1>
       <p class="username">@shusukegxe</p>
-      <p class="bio">Desarrollador apasionado por crear experiencias digitales. Creador de <strong>PixelVortex</strong> y contribuidor activo en el ecosistema de <strong>MiniFeather</strong> / MiniBlox.</p>
+      <p class="bio">Desarrollador enfocado en <strong>MiniBlox</strong>, clientes, launchers y herramientas. Creador de <strong>PixelVortex</strong> y del ecosistema <strong>MiniFeather</strong>. También proyectos web y packs de Minecraft.</p>
       <div class="stats">
-        <div class="stat">
-          <strong>43+</strong>
-          <span>Repositorios</span>
-        </div>
-        <div class="stat">
-          <strong>7</strong>
-          <span>Seguidores</span>
-        </div>
-        <div class="stat">
-          <strong>3</strong>
-          <span>Siguiendo</span>
-        </div>
+        <div class="stat"><strong>48</strong><span>Repositorios</span></div>
+        <div class="stat"><strong>7</strong><span>Seguidores</span></div>
+        <div class="stat"><strong>3</strong><span>Siguiendo</span></div>
       </div>
       <div class="links">
         <a class="btn btn-primary" href="https://github.com/shusukegxe" target="_blank" rel="noopener">
@@ -246,80 +142,225 @@
       </div>
     </header>
 
+    <!-- MiniFeather / MiniBlox -->
     <section>
-      <h2>Sobre MiniFeather</h2>
-      <div class="about-box">
-        <p><strong>MiniFeather</strong> es un cliente para <strong>MiniBlox</strong>. He trabajado en varias partes del ecosistema:</p>
-        <p>• <strong>MiniFeather-Client</strong> — Cliente personalizado para MiniBlox con recursos gráficos, texturas y fuentes.</p>
-        <p>• <strong>mfaccs</strong> — Sistema de gestión de cuentas, skins y capas (capes). Proyecto activo en Python con más de 160 commits, incluyendo skins, capes y automatización.</p>
-        <p>• Integración con <strong>PixelVortex</strong>, el launcher que desarrollé para facilitar el acceso a MiniBlox y herramientas relacionadas.</p>
+      <h2>MiniFeather & MiniBlox</h2>
+      <div class="about-box" style="margin-bottom:1.25rem">
+        <p><strong>MiniFeather</strong> es un cliente para <strong>MiniBlox</strong>. He construido el cliente, el sistema de cuentas/skins/capas, mods, texturas, música y el launcher <strong>PixelVortex</strong> que une todo el ecosistema.</p>
       </div>
-    </section>
-
-    <section>
-      <h2>Proyectos destacados</h2>
       <div class="projects">
         <article class="card">
-          <h3><a href="https://github.com/shusukegxe/pixelvortex-3.2.x" target="_blank">pixelvortex-3.2.x</a></h3>
-          <p>Versión principal del launcher PixelVortex para MiniBlox.</p>
-          <div class="meta">
-            <span class="tag">JavaScript</span>
-            <span>★ 4</span>
-          </div>
-        </article>
-        <article class="card">
           <h3><a href="https://github.com/shusukegxe/MiniFeather-Client" target="_blank">MiniFeather-Client</a></h3>
-          <p>Cliente personalizado para MiniBlox (MiniFeather).</p>
-          <div class="meta">
-            <span class="tag">Client</span>
-            <span>★ 1</span>
-          </div>
+          <p>Cliente personalizado para MiniBlox. Incluye recursos gráficos, texturas (spritesheet, entity), fuente Faithful y pack de texturas PixelVortex.</p>
+          <div class="meta"><span class="tag">Client</span><span>★ 1</span></div>
         </article>
         <article class="card">
           <h3><a href="https://github.com/shusukegxe/mfaccs" target="_blank">mfaccs</a></h3>
-          <p>Gestión de cuentas, skins y capas para MiniFeather. +160 commits.</p>
-          <div class="meta">
-            <span class="tag">Python</span>
-            <span>Activo</span>
-          </div>
+          <p>Sistema de gestión de cuentas, skins y capas (capes) para MiniFeather. Escrito en Python, con carpetas de skins/capes, accounts.json y automatización. +160 commits, en desarrollo activo.</p>
+          <div class="meta"><span class="tag">Python</span><span class="tag-green">Activo</span></div>
+        </article>
+        <article class="card">
+          <h3><a href="https://github.com/shusukegxe/MIniblox_music" target="_blank">MIniblox_music</a></h3>
+          <p>Extensión para modificar la música de MiniBlox.</p>
+          <div class="meta"><span class="tag">JavaScript</span><span>★ 1</span></div>
+        </article>
+        <article class="card">
+          <h3><a href="https://github.com/shusukegxe/Miniblox_textures" target="_blank">Miniblox_textures</a></h3>
+          <p>Texture pack para MiniBlox orientado a PvP y survival. Gratis y modificable.</p>
+          <div class="meta"><span class="tag">JavaScript</span><span>★ 4</span></div>
+        </article>
+        <article class="card">
+          <h3><a href="https://github.com/shusukegxe/verity-mod-miniblox" target="_blank">verity-mod-miniblox</a></h3>
+          <p>Mod para MiniBlox.</p>
+          <div class="meta"><span class="tag">Mod</span><span>★ 1</span></div>
+        </article>
+        <article class="card">
+          <h3><a href="https://github.com/shusukegxe/Miniblox-Pixelvortex-client" target="_blank">Miniblox-Pixelvortex-client</a></h3>
+          <p>Cliente MiniBlox integrado con el ecosistema PixelVortex.</p>
+          <div class="meta"><span class="tag">Client</span><span>★ 1</span></div>
+        </article>
+        <article class="card">
+          <h3><a href="https://github.com/shusukegxe/gui" target="_blank">gui</a></h3>
+          <p>GUI de MiniBlox / PixelVortex (minibloxpixelvortexgui).</p>
+          <div class="meta"><span class="tag">GUI</span></div>
+        </article>
+        <article class="card">
+          <h3><a href="https://github.com/shusukegxe/miniblox.local" target="_blank">miniblox.local</a></h3>
+          <p>Entorno local de MiniBlox. Dependencias: Node.js, lite-server, Windows CMD.</p>
+          <div class="meta"><span class="tag">HTML</span><span>★ 2</span></div>
+        </article>
+      </div>
+    </section>
+
+    <!-- PixelVortex -->
+    <section>
+      <h2>PixelVortex (Launcher)</h2>
+      <div class="about-box" style="margin-bottom:1.25rem">
+        <p><strong>PixelVortex</strong> es el launcher que desarrollé para MiniBlox. Incluye versiones del cliente, detector de actualizaciones, releases y la versión web.</p>
+      </div>
+      <div class="projects">
+        <article class="card">
+          <h3><a href="https://github.com/shusukegxe/pixelvortex-3.2.x" target="_blank">pixelvortex-3.2.x</a></h3>
+          <p>Versión principal actual del launcher PixelVortex (rama 3.2.x).</p>
+          <div class="meta"><span class="tag">JavaScript</span><span>★ 4</span></div>
         </article>
         <article class="card">
           <h3><a href="https://github.com/shusukegxe/PixelVortex_Launcher" target="_blank">PixelVortex_Launcher</a></h3>
-          <p>Launcher para miniblox.io</p>
-          <div class="meta">
-            <span class="tag">Launcher</span>
-            <span>★ 2</span>
-          </div>
+          <p>Launcher para miniblox.io — una de las bases del proyecto.</p>
+          <div class="meta"><span class="tag">Launcher</span><span>★ 2</span></div>
         </article>
         <article class="card">
-          <h3><a href="https://github.com/shusukegxe/Pixel_vortex_Web" target="_blank">Pixel_vortex_Web</a></h3>
-          <p>Sitio web relacionado con PixelVortex.</p>
-          <div class="meta">
-            <span class="tag">JavaScript</span>
-          </div>
+          <h3><a href="https://github.com/shusukegxe/Pixelvortex-Launcher-0.6.2" target="_blank">Pixelvortex-Launcher-0.6.2</a></h3>
+          <p>Versión 0.6.2 del launcher de PixelVortex.</p>
+          <div class="meta"><span class="tag">Launcher</span></div>
         </article>
         <article class="card">
           <h3><a href="https://github.com/shusukegxe/Pixelvortex_release" target="_blank">Pixelvortex_release</a></h3>
-          <p>Releases oficiales de PixelVortex.</p>
-          <div class="meta">
-            <span class="tag">JavaScript</span>
-            <span>★ 1</span>
-          </div>
+          <p>Releases oficiales de PixelVortex (builds y distribución).</p>
+          <div class="meta"><span class="tag">JavaScript</span><span>★ 1</span></div>
         </article>
         <article class="card">
+          <h3><a href="https://github.com/shusukegxe/Pixelvortex-Client-Version-Detector" target="_blank">Pixelvortex-Client-Version-Detector</a></h3>
+          <p>Servicio que avisa al launcher cuando hay una versión nueva del cliente.</p>
+          <div class="meta"><span class="tag">Detector</span></div>
+        </article>
+        <article class="card">
+          <h3><a href="https://github.com/shusukegxe/pixelvortexweb" target="_blank">pixelvortexweb</a></h3>
+          <p>Versión web de PixelVortex.</p>
+          <div class="meta"><span class="tag">JavaScript</span><span>★ 2</span></div>
+        </article>
+        <article class="card">
+          <h3><a href="https://github.com/shusukegxe/Pixel_vortex_Web" target="_blank">Pixel_vortex_Web</a></h3>
+          <p>Sitio / interfaz web asociada a PixelVortex.</p>
+          <div class="meta"><span class="tag">JavaScript</span></div>
+        </article>
+        <article class="card">
+          <h3><a href="https://github.com/shusukegxe/Version.pixelvortexlauncher.info" target="_blank">Version.pixelvortexlauncher.info</a></h3>
+          <p>Endpoint / info de versiones del launcher.</p>
+          <div class="meta"><span class="tag">Info</span></div>
+        </article>
+        <article class="card">
+          <h3><a href="https://github.com/shusukegxe/Pixelvortex" target="_blank">Pixelvortex</a></h3>
+          <p>Repositorio base / general de PixelVortex.</p>
+          <div class="meta"><span class="tag">JavaScript</span></div>
+        </article>
+        <article class="card">
+          <h3><a href="https://github.com/shusukegxe/Pixelvortex-Client---Launcher" target="_blank">Pixelvortex-Client---Launcher</a></h3>
+          <p>Cliente + launcher unificados de PixelVortex.</p>
+          <div class="meta"><span class="tag">Client</span></div>
+        </article>
+      </div>
+    </section>
+
+    <!-- Web & otros -->
+    <section>
+      <h2>Proyectos web</h2>
+      <div class="projects">
+        <article class="card">
           <h3><a href="https://github.com/shusukegxe/venta-tortas-caseras" target="_blank">venta-tortas-caseras</a></h3>
-          <p>Proyecto web de venta de tortas caseras.</p>
-          <div class="meta">
-            <span class="tag">CSS</span>
-            <span>GitHub Pages</span>
-          </div>
+          <p>Sitio web de venta de tortas caseras. HTML/CSS, desplegado en GitHub Pages.</p>
+          <div class="meta"><span class="tag">CSS</span><span class="tag-blue">GitHub Pages</span></div>
+        </article>
+        <article class="card">
+          <h3><a href="https://github.com/shusukegxe/pagina-web" target="_blank">pagina-web</a></h3>
+          <p>Página web de Norte, estudio de arquitectura. HTML, CSS y JS listos para GitHub Pages.</p>
+          <div class="meta"><span class="tag">HTML/CSS/JS</span></div>
+        </article>
+        <article class="card">
+          <h3><a href="https://github.com/shusukegxe/shusukegxe.github.io" target="_blank">shusukegxe.github.io</a></h3>
+          <p>Esta misma página de perfil personal.</p>
+          <div class="meta"><span class="tag">HTML</span><span class="tag-blue">GitHub Pages</span></div>
+        </article>
+        <article class="card">
+          <h3><a href="https://github.com/shusukegxe/pixel-tab" target="_blank">pixel-tab</a></h3>
+          <p>Proyecto web / pestaña relacionada con el ecosistema Pixel.</p>
+          <div class="meta"><span class="tag">CSS</span></div>
+        </article>
+        <article class="card">
+          <h3><a href="https://github.com/shusukegxe/Web_Page-noseque-xD" target="_blank">Web_Page-noseque-xD</a></h3>
+          <p>Página web experimental.</p>
+          <div class="meta"><span class="tag">HTML</span></div>
+        </article>
+        <article class="card">
+          <h3><a href="https://github.com/shusukegxe/45-jikan--v" target="_blank">45-jikan--v</a></h3>
+          <p>Proyecto web (HTML).</p>
+          <div class="meta"><span class="tag">HTML</span></div>
+        </article>
+      </div>
+    </section>
+
+    <!-- Minecraft -->
+    <section>
+      <h2>Minecraft</h2>
+      <div class="projects">
+        <article class="card">
+          <h3><a href="https://github.com/shusukegxe/vanilla-plus-pack" target="_blank">vanilla-plus-pack</a></h3>
+          <p>Modpack Fabric 1.21.4 vanilla+ sin ventajas competitivas, para jugar con amigos. 161 mods: optimización (Sodium, Lithium…), terreno (Terralith, Tectonic…), estructuras YUNG, criaturas, voice chat, mapas y QoL. Incluye datapack Creeper Consent.</p>
+          <div class="meta"><span class="tag">Fabric 1.21.4</span><span class="tag-green">161 mods</span></div>
+        </article>
+        <article class="card">
+          <h3><a href="https://github.com/shusukegxe/mods" target="_blank">mods</a></h3>
+          <p>Colección de mods.</p>
+          <div class="meta"><span class="tag">Mods</span><span>★ 1</span></div>
+        </article>
+        <article class="card">
+          <h3><a href="https://github.com/shusukegxe/mods-XD" target="_blank">mods-XD</a> / <a href="https://github.com/shusukegxe/mods-" target="_blank">mods-</a></h3>
+          <p>Más colecciones de mods y experimentos.</p>
+          <div class="meta"><span class="tag">Mods</span></div>
+        </article>
+        <article class="card">
+          <h3><a href="https://github.com/shusukegxe/backrooms-xD" target="_blank">backrooms-xD</a></h3>
+          <p>Proyecto / mapa o mod relacionado con The Backrooms.</p>
+          <div class="meta"><span class="tag">Minecraft</span></div>
+        </article>
+        <article class="card">
+          <h3><a href="https://github.com/shusukegxe/idk-solo-mods-para-no-se-que-XDDDDDDD" target="_blank">idk-solo-mods-para-no-se-que</a></h3>
+          <p>Mods sueltos / experimentos.</p>
+          <div class="meta"><span class="tag">Mods</span></div>
+        </article>
+      </div>
+    </section>
+
+    <!-- Otros -->
+    <section>
+      <h2>Otros proyectos</h2>
+      <div class="projects">
+        <article class="card">
+          <h3><a href="https://github.com/shusukegxe/Unit-O" target="_blank">Unit-O</a></h3>
+          <p>Unit-Ø — juego de programación en desarrollo ("iré haciendo cosa por cosa").</p>
+          <div class="meta"><span class="tag">Juego</span></div>
+        </article>
+        <article class="card">
+          <h3><a href="https://github.com/shusukegxe/-insertar-nombre-del-juego-" target="_blank">-insertar-nombre-del-juego-</a></h3>
+          <p>Proyecto de juego en JavaScript.</p>
+          <div class="meta"><span class="tag">JavaScript</span></div>
+        </article>
+        <article class="card">
+          <h3><a href="https://github.com/shusukegxe/duolingo-japones" target="_blank">duolingo-japones</a></h3>
+          <p>Proyecto relacionado con Duolingo / japonés.</p>
+          <div class="meta"><span class="tag">Aprendizaje</span></div>
+        </article>
+        <article class="card">
+          <h3><a href="https://github.com/shusukegxe/tilapiaxd" target="_blank">tilapiaxd</a> / <a href="https://github.com/shusukegxe/tilapia-de-mi-mama" target="_blank">tilapia-de-mi-mama</a></h3>
+          <p>Proyectos experimentales en JavaScript.</p>
+          <div class="meta"><span class="tag">JavaScript</span></div>
+        </article>
+        <article class="card">
+          <h3><a href="https://github.com/shusukegxe/inst-noseque" target="_blank">inst-noseque</a></h3>
+          <p>Proyecto experimental en JavaScript.</p>
+          <div class="meta"><span class="tag">JavaScript</span></div>
+        </article>
+        <article class="card">
+          <h3><a href="https://github.com/shusukegxe/test" target="_blank">test</a></h3>
+          <p>Repo de pruebas (HTML).</p>
+          <div class="meta"><span class="tag">HTML</span></div>
         </article>
       </div>
     </section>
 
     <footer>
       <p>Hecho con ❤️ · Hosteado en <a href="https://pages.github.com" target="_blank">GitHub Pages</a></p>
-      <p style="margin-top:0.5rem"><a href="https://github.com/shusukegxe/shusukegxe.github.io">Ver código fuente</a></p>
+      <p style="margin-top:0.5rem"><a href="https://github.com/shusukegxe/shusukegxe.github.io">Ver código fuente</a> · <a href="https://github.com/shusukegxe?tab=repositories" target="_blank">Todos los repos</a></p>
     </footer>
   </div>
 </body>
